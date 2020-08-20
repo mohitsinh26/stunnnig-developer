@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-black {
+    background: rgb(12, 12, 12);
+    color: white;
+}
+
+#main-header .menu-item {
+    width: 25%;
+}
+
+@media(min-width:1199px) {
+    #main-header .menu-item {
+        padding: 2.1em !important;
+    }
+}
+
+#main-header .menu-item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
